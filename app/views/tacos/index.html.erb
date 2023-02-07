@@ -1,0 +1,15 @@
+<h1> Gimme some tacos! You silly goose! <h1>
+
+<!-- Im a silly fucking goose -->
+
+<%
+    tacos = ["Shanny", "Al Pastor", "Shanny"]
+%>
+
+<p> there are <%= tacos.count %> tacos </p>
+
+<ul>
+    <% for taco in tacos %>
+        <li><%= taco %></li>
+    <% end %>
+</ul>
